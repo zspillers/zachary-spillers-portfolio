@@ -35,6 +35,12 @@ const PROJECTS = [
       'images/oddfellows-cafe/ODDFELLOWS_AXON.png',
       'images/oddfellows-cafe/ODDFELLOWS_EXT_AFTER.png',
       'images/oddfellows-cafe/ODDFELLOWS_EXT_BEFORE.png',
+      'images/oddfellows-cafe/ODDFELLOWS_EAST_EXT_ELEVATION.png',
+      'images/oddfellows-cafe/ODDFELLOWS_EXT_ELEVATIONS.png',
+      'images/oddfellows-cafe/Oddfellows_Furniture_Plan.jpg',
+      'images/oddfellows-cafe/ODDFELLOWS_INT_BEFORE_PHOTO_1.png',
+      'images/oddfellows-cafe/ODDFELLOWS_NORTH_EXT_ELEVATION.png',
+      'images/oddfellows-cafe/ODDFELLOWS_SLAT_WALL_DIAGRAM.png',
     ]
   },
   {
@@ -49,7 +55,7 @@ const PROJECTS = [
     gallery: [
       'images/architype-distillery/Architype_Gallery1.jpg',
       'images/architype-distillery/Architype_Gallery2.jpg',
-      'images/architype-distillery/Archetype-4.jpg',
+      'images/architype-distillery/Archetype_gallery_7.jpg',
       'images/architype-distillery/Architype_gallery_4.jpg',
       'images/architype-distillery/Architype_Gallery_5.jpg',
       'images/architype-distillery/Architype_gallery6.jpg',
@@ -69,6 +75,8 @@ const PROJECTS = [
       'images/enos-pizza/Enos_Beer_Hall_1.jpg',
       'images/enos-pizza/Enos_Beer_Hall_2.jpg',
       'images/enos-pizza/Enos_Beer_Hall_3.jpg',
+      'images/enos-pizza/Enos_portfolio_page_1.png',
+      'images/enos-pizza/Enos_portfolio_page_2.png',
     ]
   },
   {
@@ -86,6 +94,7 @@ const PROJECTS = [
       'images/wild-detectives/Wild_Detectives-Gallery_3.jpg',
       'images/wild-detectives/Wild_Detectives-Gallery4.jpg',
       'images/wild-detectives/Wild_Detectives-Gallery5.jpg',
+      'images/wild-detectives/Wild_Detectives-Gallery6.jpg',
       'images/wild-detectives/Wild_Detectives-Gallery7.png',
       'images/wild-detectives/Wild_Detectives-Gallery8.jpg',
     ]
@@ -102,6 +111,7 @@ const PROJECTS = [
     gallery: [
       'images/zocalito/Zocalito_Gallery_1.jpg',
       'images/zocalito/Zocalito_Gallery2.jpg',
+      'images/zocalito/Zocalito_Gallery3.jpg',
       'images/zocalito/Zocalito_Gallery4.jpg',
       'images/zocalito/Zocalito_gallery_5.jpg',
       'images/zocalito/Zocalito_gallery6.jpg',
@@ -148,6 +158,10 @@ const PROJECTS = [
       'images/julian-residence/Julain_Residence_gallery4.JPG',
       'images/julian-residence/Julain_Residence_gallery5.JPG',
       'images/julian-residence/Julain_Residence_gallery6.JPG',
+      'images/julian-residence/Julain_Residence_galleryA_before.PNG',
+      'images/julian-residence/Julain_Residence_galleryB_before.PNG',
+      'images/julian-residence/Julain_Residence_galleryC_before.PNG',
+      'images/julian-residence/Julain_Residence_galleryD_before.PNG',
     ]
   },
   {
@@ -160,8 +174,8 @@ const PROJECTS = [
     scope: 'Concept design through construction documents, variance process, city re-platting',
     description: "A 1970s single-story ranch house near White Rock Lake, doubled in size and reorganized around a single idea: make the family want to be in the same room. Generous shared spaces occupy the entire ground floor; bedrooms are intentionally compact above. The triangular corner lot required a full variance and re-platting process — over a year of city engagement — to recover buildable area and preserve a mature tree. The exterior shifted from French country to modern farmhouse during construction, landing on something cleaner without changing the plan underneath.",
     gallery: [
-      'images/shook-residence/Shook_Residence_Gallery1.jpg',
-      'images/shook-residence/Shook_Residence_Gallery2.jpg',
+      'images/shook-residence/Shook_Residence_Portfolio_page1.png',
+      'images/shook-residence/Shook_Residence_Portfolio_page1.png',
     ]
   },
 
@@ -172,12 +186,12 @@ const PROJECTS = [
     location: 'Broomfield, CO',
     category: 'rendering',
     categoryLabel: 'Rendering & Concept Design',
-    cover: 'images/alta-flat-irons/alta_cover.jpg',
+    cover: 'images/alta-flat-irons/AltaFlatIrons_Cover.jpg',
     scope: 'Senior Project Designer and Renderer',
     description: 'PLACEHOLDER',
     gallery: [
-      'images/alta-flat-irons/alta_portfolio_page1.jpg',
-      'images/alta-flat-irons/alta_portfolio_page2.jpg',
+      'images/alta-flat-irons/alta_portfolio_page1.png',
+      'images/alta-flat-irons/alta_portfolio_page2.png',
     ]
   },
   {
@@ -186,12 +200,12 @@ const PROJECTS = [
     location: 'Denver, CO',
     category: 'rendering',
     categoryLabel: 'Rendering & Concept Design',
-    cover: 'images/maa-milepost/maa_milepost_cover.jpg',
+    cover: 'images/maa-milepost/MilePost35_cover.png',
     scope: 'Senior Project Designer and Renderer',
     description: 'PLACEHOLDER',
     gallery: [
-      'images/maa-milepost/maa_milepost_page1.jpg',
-      'images/maa-milepost/maa_milepost_page2.jpg',
+      'images/maa-milepost/maa_milepost_page1.png',
+      'images/maa-milepost/maa_milepost_page2.png',
     ]
   },
   {
@@ -200,12 +214,12 @@ const PROJECTS = [
     location: 'Denver, CO',
     category: 'rendering',
     categoryLabel: 'Rendering & Concept Design',
-    cover: 'images/maa-panorama/maa_panorama_cover.jpg',
+    cover: 'images/maa-panorama/maa_panorama_cover.png',
     scope: 'Senior Project Designer and Renderer',
     description: 'PLACEHOLDER',
     gallery: [
-      'images/maa-panorama/maa_panorama_page1.jpg',
-      'images/maa-panorama/maa_panorama_page2.jpg',
+      'images/maa-panorama/maa_panorama_page1.png',
+      'images/maa-panorama/maa_panorama_page2.png',
     ]
   },
   {
@@ -218,8 +232,8 @@ const PROJECTS = [
     scope: 'Project Designer and Renderer',
     description: 'PLACEHOLDER',
     gallery: [
-      'images/winter-park/winterpark_page1.jpg',
-      'images/winter-park/winterpark_page2.jpg',
+      'images/winter-park/winterpark_page1.png',
+      'images/winter-park/winterpark_page2.png',
     ]
   },
 
@@ -230,13 +244,13 @@ const PROJECTS = [
     location: 'Design International',
     category: 'product',
     categoryLabel: 'Product Design',
-    cover: 'images/leatherwork/briefcase_cover.jpg',
+    cover: 'images/leatherwork/Product_Design_Cover.jpg',
     scope: 'Design and Fabrication',
     description: "A leatherworking practice spanning sixteen years, rooted in a practical need — a travel briefcase large enough for 12×18 drawing sets — and grown into a recurring discipline. Wallets, journals, and bags made from vegetable-tanned leather using saddle stitching and vinegaroon dyeing.",
     gallery: [
       'images/leatherwork/wallet1.jpg',
       'images/leatherwork/wallet2.jpg',
-      'images/leatherwork/wallet3.jpg',
+      'images/leatherwork/Briefcase1.jpg',
       'images/leatherwork/passport_wallet1.jpg',
       'images/leatherwork/passport_wallet2.jpg',
       'images/leatherwork/journal1.jpg',
