@@ -71,6 +71,46 @@ function initScrollObserver() {
   els.forEach(el => observer.observe(el));
 }
 
+// ─── HERO SLIDESHOW ──────────────────────────────────────────────────────────
+function initHeroSlideshow() {
+  const heroImage = document.querySelector('.hero-image');
+  if (!heroImage) return;
+
+  const covers = PROJECTS.map(p => p.cover);
+  let current = 0;
+
+  // Pre-load all cover images
+  covers.forEach(src => { const img = new Image(); img.src = src; });
+
+  // Create two layers for crossfade
+  const layerA = heroImage.querySelector('img');
+  const layerB = document.createElement('img');
+  layerB.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:0;transition:opacity 1.2s ease;';
+  heroImage.appendChild(layerB);
+  layerA.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;opacity:1;transition:opacity 1.2s ease;';
+
+  function advance() {
+    current = (current + 1) % covers.length;
+    const incoming = current % 2 === 0 ? layerA : layerB;
+    const outgoing = current % 2 === 0 ? layerB : layerA;
+    incoming.src = covers[current];
+    incoming.style.opacity = '0';
+    // Small delay to ensure new image is loaded before fading in
+    incoming.onload = () => {
+      incoming.style.opacity = '1';
+      outgoing.style.opacity = '0';
+    };
+    // Fallback if already cached
+    if (incoming.complete) {
+      incoming.style.opacity = '1';
+      outgoing.style.opacity = '0';
+    }
+  }
+
+  setInterval(advance, 5000);
+}
+
 // ─── INIT ─────────────────────────────────────────────────────────────────────
 buildWorkGrid();
 initScrollObserver();
+initHeroSlideshow();
