@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zachary Spillers — Project</title>
+  <meta name="description" content="" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Inter:wght@300;400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─────────────────────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-wordmark">Zachary Spillers</a>
+    <ul class="nav-links">
+      <li><a href="index.html#work">Work</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ─── PROJECT HERO ─────────────────────────────────────────────────────── -->
+  <div class="project-hero" id="project-hero">
+    <img id="hero-img" src="" alt="" />
+  </div>
+
+  <!-- ─── BACK LINK ─────────────────────────────────────────────────────────── -->
+  <div style="max-width:var(--max-width);margin:0 auto;">
+    <a href="index.html#work" class="back-link" style="display:inline-flex;">
+      ← &nbsp; All Work
+    </a>
+  </div>
+
+  <!-- ─── PROJECT META ─────────────────────────────────────────────────────── -->
+  <div class="project-meta" id="project-meta">
+    <div class="project-title-block">
+      <p class="t-label" id="project-category-label"></p>
+      <h1 class="project-title" id="project-title"></h1>
+      <p class="project-location" id="project-location"></p>
+    </div>
+    <div class="project-info" id="project-scope-block">
+      <p class="project-scope-label">Scope</p>
+      <p class="project-scope" id="project-scope"></p>
+    </div>
+  </div>
+
+  <!-- ─── PROJECT DESCRIPTION ──────────────────────────────────────────────── -->
+  <div class="project-description" id="project-description-wrap">
+    <p id="project-description"></p>
+  </div>
+
+  <!-- ─── GALLERY ──────────────────────────────────────────────────────────── -->
+  <div class="gallery-section">
+    <div class="gallery-grid stagger" id="gallery-grid"></div>
+  </div>
+
+  <!-- ─── PROJECT NAV ──────────────────────────────────────────────────────── -->
+  <div class="project-nav" id="project-nav"></div>
+
+  <!-- ─── LIGHTBOX ─────────────────────────────────────────────────────────── -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous">&#8592;</button>
+    <div class="lightbox-inner">
+      <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+    </div>
+    <button class="lightbox-next" id="lightbox-next" aria-label="Next">&#8594;</button>
+    <div class="lightbox-counter" id="lightbox-counter"></div>
+  </div>
+
+  <script src="projects.js"></script>
+  <script src="project.js"></script>
+</body>
+</html>
