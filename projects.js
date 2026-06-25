@@ -174,8 +174,9 @@ const PROJECTS = [
     scope: 'Concept design through construction documents, variance process, city re-platting',
     description: "A 1970s single-story ranch house near White Rock Lake, doubled in size and reorganized around a single idea: make the family want to be in the same room. Generous shared spaces occupy the entire ground floor; bedrooms are intentionally compact above. The triangular corner lot required a full variance and re-platting process — over a year of city engagement — to recover buildable area and preserve a mature tree. The exterior shifted from French country to modern farmhouse during construction, landing on something cleaner without changing the plan underneath.",
     gallery: [
+      'images/shook-residence/Shook_Residence_Gallery1.jpg',
       'images/shook-residence/Shook_Residence_Portfolio_page1.png',
-      'images/shook-residence/Shook_Residence_Portfolio_page1.png',
+      'images/shook-residence/Shook_Residence_Portfolio_page2.png',
     ]
   },
 
@@ -186,7 +187,7 @@ const PROJECTS = [
     location: 'Broomfield, CO',
     category: 'rendering',
     categoryLabel: 'Rendering & Concept Design',
-    cover: 'images/alta-flat-irons/AltaFlatIrons_Cover.jpg',
+    cover: 'images/alta-flat-irons/alta_cover.jpg',
     scope: 'Senior Project Designer and Renderer',
     description: 'PLACEHOLDER',
     gallery: [
@@ -200,7 +201,7 @@ const PROJECTS = [
     location: 'Denver, CO',
     category: 'rendering',
     categoryLabel: 'Rendering & Concept Design',
-    cover: 'images/maa-milepost/MilePost35_cover.png',
+    cover: 'images/maa-milepost/maa_milepost_cover.png',
     scope: 'Senior Project Designer and Renderer',
     description: 'PLACEHOLDER',
     gallery: [
@@ -244,7 +245,7 @@ const PROJECTS = [
     location: 'Design International',
     category: 'product',
     categoryLabel: 'Product Design',
-    cover: 'images/leatherwork/Product_Design_Cover.jpg',
+    cover: 'images/leatherwork/briefcase_cover.jpg',
     scope: 'Design and Fabrication',
     description: "A leatherworking practice spanning sixteen years, rooted in a practical need — a travel briefcase large enough for 12×18 drawing sets — and grown into a recurring discipline. Wallets, journals, and bags made from vegetable-tanned leather using saddle stitching and vinegaroon dyeing.",
     gallery: [
