@@ -303,6 +303,20 @@ a { color: inherit; text-decoration: none; }
 
 .about-label { margin-bottom: 32px; }
 
+.about-photo {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .about-bio {
   font-family: var(--sans);
   font-weight: 300;
