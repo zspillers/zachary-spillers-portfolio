@@ -238,26 +238,6 @@ const PROJECTS = [
     ]
   },
 
-  // ─── PRODUCT DESIGN ─────────────────────────────────────────────────────────
-  {
-    slug: 'leatherwork',
-    title: 'Leatherwork',
-    location: 'Design International',
-    category: 'product',
-    categoryLabel: 'Product Design',
-    cover: 'images/leatherwork/briefcase_cover.jpg',
-    scope: 'Design and Fabrication',
-    description: "A leatherworking practice spanning sixteen years, rooted in a practical need — a travel briefcase large enough for 12×18 drawing sets — and grown into a recurring discipline. Wallets, journals, and bags made from vegetable-tanned leather using saddle stitching and vinegaroon dyeing.",
-    gallery: [
-      'images/leatherwork/wallet1.jpg',
-      'images/leatherwork/wallet2.jpg',
-      'images/leatherwork/Briefcase1.jpg',
-      'images/leatherwork/passport_wallet1.jpg',
-      'images/leatherwork/passport_wallet2.jpg',
-      'images/leatherwork/journal1.jpg',
-      'images/leatherwork/journal2.jpg',
-    ]
-  },
 ];
 
 // Ordered category groups for homepage display
@@ -265,5 +245,4 @@ const CATEGORY_ORDER = [
   { key: 'restaurant', label: 'Restaurant Design' },
   { key: 'residential', label: 'Residential Design' },
   { key: 'rendering', label: 'Rendering & Concept Design' },
-  { key: 'product', label: 'Product Design' },
 ];
