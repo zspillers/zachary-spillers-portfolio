@@ -7,8 +7,8 @@ const PROJECTS = [
     category: 'restaurant',
     categoryLabel: 'Restaurant Design',
     cover: 'images/masons-dumplings/Masons_Dumplings_Cover.jpg',
-    scope: 'PLACEHOLDER',
-    description: 'PLACEHOLDER',
+    scope: 'Concept design and renderings — Architectural Workshop',
+    description: "When an LA-based restaurateur came to Architectural Workshop looking to convert the prior nightclub space into a dumpling concept, we decided we needed to anchor the front corner as the clear focal point. To do so, a light stucco frame wraps the storefront glass, while a layer of planters and horizontal slats along Montview Blvd. creates a sense of protection from the street, layering sightlines into the restaurant. The rest of the building was painted a darker gray to recede visually, letting the corner do the work of drawing people in, with planters aligned with the roofline softening the transition to the ground. Inside, the seating area layers user activity in front of the open kitchen, and the exterior slat screen carries through to the ceiling, extending the same gesture that pulls people in from the sidewalk.",
     gallery: [
       'images/masons-dumplings/Masons_Dumplings_Gallery1.jpg',
       'images/masons-dumplings/Masons_Dumplings_Gallery2.jpg',
